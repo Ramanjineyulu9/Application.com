@@ -1,0 +1,159 @@
+<html>
+<head>
+    <title> S.V COMPUTERS </title>
+	<link rel="stylesheet" href="style.css" text="type/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
+	awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<div class="menu">
+<ul>
+<li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
+<li><a href="#"><i class="fa fa-user"></i>About Us</a>
+    <div class="sub-menu-1">
+	 <ul>
+	 
+	   <li><a href="https://youtube.com/" target="blank">Mission</a></li>
+	   <li><a href="#">Vission</a></li>
+	   <li><a href="#">Team</a></li>
+	 </ul>
+	</div>
+	</li>	
+<li><a href="#"><i class="fa fa-clone"></i>Services</a>
+<div class="sub-menu-1">
+	 <ul>
+	 
+	   <li><a href="#">Web Designing</a></li>
+	   <li class="hover-me"><a href="#">Marketing</a><i class="fa fa-angle-right"></i>
+	   <div class="sub-menu-2">
+	      <ul>
+		  <li><a href="#">SEO</a></li>
+		  <li><a href="#">Social Media</a></li>
+		  <li><a href="#">Email Marketing</a></li>
+		  </ul>
+		  </div>
+	   </li>
+	   <li class="hover-me"><a href="#">Mobile App</a><i class="fa fa-angle-right"></i>
+	   <div class="sub-menu-2">
+	      <ul>
+		  <li><a href="#">Android App</a></li>
+		  <li><a href="#">Ios App</a></li>
+		  <li><a href="#">Unity App</a></li>
+		  </ul>
+		  </div>
+	   </li>
+	 </ul>
+	</div>
+	</li>
+<li><a href="#"><i class="fa fa-users"></i>Clients</a>
+<div class="sub-menu-1">
+	 <ul>
+	 
+	   <li><a href="#">Mission</a></li>
+	   <li><a href="#">Vission</a></li>
+	   <li><a href="#">Team</a></li>
+	 </ul>
+	</div>
+	</li>
+<li><a href="#"><i class="fa fa-edit"></i>Training</a></li>
+<li><a href="#"><i class="fa fa-phone"></i>Contact Us</a></li>
+</ul>
+</div>
+<br>
+<br>
+
+<div id="sectionApplicationForm">
+<form id="survey-form" action="connect.php" method="post">
+    <h1 id="title"> APPLICATION FORM  </h1>
+	 
+    <fieldset>
+	     <legend> Personal Details </legend>
+		 
+		 <div>
+		 <label id="name-label"  for="name">Name: </label><br>
+		 <br>
+		 <input type="text" required id="name" name="user_name" placeholder="Enter name here">
+		 </div><br>
+		 
+		 <div>
+		 <label id="name-label-1" for="name">Father Name: </label><br><br>
+		 <input type="text"  required id="name" name="father_name" placeholder="Enter name here"><br>
+		 </div><br>
+		 <label id="name-label-2" for="name">Mother Name: </label><br><br>
+		 <input type="text"  required id="name" name="mother_name" placeholder="Enter name here"><br>
+		 <br>
+		 <label id="birth-label" for="birthday"> Date of Birth: </label><br>
+		 <input type="date" name="bday" ><br><br>
+		 <div>
+		 <label id="email-label" for="email"> Email: </label><br>
+		 <br>
+		 <input type="text" required id="email" name="email_address" placeholder="Enter email address">
+         </div>
+		 <br>
+		 <div>
+		 <label id="number-label" for="phone">  Phone Number: </label><br>
+		 <br>
+		 <input type="text" required id="number" name="phone_number" placeholder="Enter 10 digits  number" min="1" max="10">
+		 </div>
+		 <br>
+		 <div>
+		 <label id="address-label" for="address"> Address: </label><br>
+		 <br>
+		 <td>
+		    <textarea rows="5" col="20" placeholder="Address" name="address" ></textarea></td>
+		 		 <br><br>
+		 <div>
+		    <label id="gender-label" for="gender"> Gender: </label>
+			<p>
+			<input type="radio" name="gender" value="male" checked> Male <br>
+			<input type="radio" name="gender" value="female" checked> Female <br>
+			<input type="radio" name="gender" value="other" checked> Others <br>
+			</p>
+		 </div><br>
+			 <label id="e-label" for="education"> Qualifications: </label><br><br>
+			 <select id="dropdown">
+			 <option value="university">UG/PG </option>
+			 <option value="college" >Intermediate </option>
+			 <option value="school">10th class </option>
+			 <option value="none"> None </option>
+			 </select><br><br>
+			 <label id="t-label" for="education"> Technical Qualifications: </label><br><br>
+			 <input type="text" name="qualification" placeholder="Enter Qualification"><br><br>
+			 <label id="c-label" for="coarse"> Choose Coarse: </label><br><br>
+			 <select id="dropdown">
+			 <option value="coarse"> IT-Fundamentals </option>
+			 <option value="coarse"> Window's </option>
+			 <option value="coarse"> Basic's </option>
+			 <option value="coarse"> M.S.DOS </option>
+			 <option value="coarse"> M.S.Office </option>
+			 <option value="coarse"> Typing Skills </option>
+			 <option value="coarse"> Internet Basics </option>
+			 <option value="coarse"> Photo Shop </option>
+			 <option value="coarse"> HTML </option>
+			 <option value="coarse"> C-Language </option>
+			 <option value="coarse"> Telugu Typing </option>
+			 <option value="coarse"> Coral Draw </option>
+			 <option value="coarse"> Hardware&Networking </option>
+			 <option value="coarse"> Other Coarses </option>
+			 </select>
+			 <br><br>
+			 <label id="l-label" for="language"> Language: </label><br><br>
+			 <select id="dropdown">
+			 <option value="language"> Telugu </option>
+			 <option value="language"> Hindhi </option>
+			 <option value="language"> English </option>
+			 <option value="language"> Others </option>
+			 </select>
+			 <div id="signature" >
+			 <h3> Apllicant Signature </h3>
+			 </div>
+			 <center><input type="submit" value="SUBMIT"></a></center>
+			 </div>
+			 </fieldset>
+			 </form>
+ 
+	
+</body>
+</html>
